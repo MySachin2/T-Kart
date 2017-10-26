@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="OtpView">
+        <attr name="android:inputType" />
+        <attr name="android:textColor" />
+        <attr name="text_background_color" format="color" />
+        <attr name="otp" format="string"/>
+    </declare-styleable>
+
+</resources>
